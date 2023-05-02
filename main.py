@@ -1,3 +1,4 @@
+from alumnos import alumnos
 import problema1
 # Hasta ahora hemos trabajado con variable que permiten almacenar un unico valor
 
@@ -27,10 +28,12 @@ if __name__ == '__main__':
     print(len(lista3))
     print(len(lista4))
     print()
-    lista1[2] = 3
+    print(lista1)
+    lista1[2] = 10
     print()
     print(lista1)
     print()
     problema1.sumar_5_enteros()
-
+    print()
+    alumnos()
 
