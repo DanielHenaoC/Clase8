@@ -1,3 +1,4 @@
+import problema1
 # Hasta ahora hemos trabajado con variable que permiten almacenar un unico valor
 
 edad = 18
@@ -28,3 +29,8 @@ if __name__ == '__main__':
     print()
     lista1[2] = 3
     print()
+    print(lista1)
+    print()
+    problema1.sumar_5_enteros()
+
+
